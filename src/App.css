@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(#D5F3FF, #5184E8);
+    background-repeat: no-repeat;
+}
+
+img{
+    position: absolute;
+    left: 37%;
+    bottom: 30%;
+    width: 600px;
+    height: 500px;
+    clip-path: polygon(0 15%, 100% 36%, 100% 100%, 0% 100%)
+}
